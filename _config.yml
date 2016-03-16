@@ -3,7 +3,7 @@ title: MAGE
 email: mage@nga.mil
 description: > # this means to ignore newlines until "baseurl:"
    MAGE provides a dynamic capability for rapidly deploying a mobile situational awareness capability in secure environments: that supports low-bandwidth and disconnected users.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/MAGE" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: nga_geoint
 github_username:  ngageoint
