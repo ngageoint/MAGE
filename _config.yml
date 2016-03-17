@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/MAGE" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: nga_geoint
-github_username:  ngageoint
+github_username:  ngageoint/mage
 
 # Build settings
 markdown: kramdown
