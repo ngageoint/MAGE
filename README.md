@@ -9,3 +9,4 @@ MAGE provides users the ability to create and share observations (including atta
 - [Mobile Awareness GEOINT Environment iOS](https://github.com/ngageoint/mage-ios)
 - [Mobile Awareness GEOINT Environment Android](https://github.com/ngageoint/mage-android)
 - [Mobile Awareness GEOINT Environment Server](https://github.com/ngageoint/mage-server)
+- [Mobile Awareness GEOINT Environment Example Markers](http://htmlpreview.github.io/?https://github.com/ngageoint/MAGE/master/markers.html)
