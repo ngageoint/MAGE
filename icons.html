@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MAGE Icons</title>
+  <script type="text/javascript" src="./icons.js"></script>
+
+  <style>
+  .header {
+    font-size: 2em;
+    padding: 20px;
+  }
+  .icon {
+    font-size: 1em;
+    background-color: #fff;
+    margin: 0 10px 10px;
+    box-shadow: 0 3px 7px rgba(0,0,0,.35);
+    padding: 20px;
+  }
+  </style>
+
+</head>
+
+<body>
+<div class="header">Attributions for icons</div>
+<div id="icons">
+
+</div>
+
+<script type="text/javascript">
+  var iconsDiv = document.getElementById('icons');
+  for (var i = 0; i < icons.length; i++) {
+    console.log('icons', icons[i]);
+    var icon = icons[i];
+    var iconDiv = document.createElement('div');
+    iconDiv.classList.add('icon');
+
+    var html ='<span class="icon-name">';
+    if (icon.url) {
+      html += '"<a href="'+icon.url+'">' + icon.iconName + '</a>"';
+    } else {
+      html += icon.iconName;
+    }
+    html += '</span>';
+    if (icon.creatorName) {
+      html += ' icon by <span class="icon-author">' + icon.creatorName + '</span>';
+    }
+    if (icon.source) {
+       html += ' from <span class="icon-source">';
+       if (icon.sourceUrl) {
+         html += '<a href="' + icon.sourceUrl + '">' + icon.source + '</a>'
+       } else {
+         html += icon.source;
+       }
+       html += '</span>';
+    }
+
+    iconDiv.innerHTML = html;
+
+    iconsDiv.appendChild(iconDiv);
+  }
+</script>
+</body>
