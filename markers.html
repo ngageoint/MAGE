@@ -70,7 +70,7 @@
           var icon = item[i];
           var div = document.createElement('div');
           div.classList.add('marker');
-          div.innerHTML = '<img src="https://github.com/ngageoint/MAGE/raw/master/' + icon.path + '"/><div class="icon-name">' + icon.name + '</div>';
+          div.innerHTML = '<a href="https://github.com/ngageoint/MAGE/raw/master/' + icon.path + '"><img src="https://github.com/ngageoint/MAGE/raw/master/' + icon.path + '"/><div class="icon-name">' + icon.name + '</div></a>';
           appendDiv.appendChild(div);
         }
 
