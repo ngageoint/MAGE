@@ -1,5 +1,12 @@
 var icons = [
   {
+    iconName: "Turkey",
+    creatorName: "Hernan D. Schlosman"
+    source: "the Noun Project",
+    sourceUrl: "https://thenounproject.com",
+    url: "https://thenounproject.com/icon/250703/"
+  },
+  {
     iconName: "prison cell",
     creatorName: "Creative Stall",
     source: "the Noun Project",
