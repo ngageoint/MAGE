@@ -824,5 +824,12 @@ var icons = [
     source: "the Noun Project",
     sourceUrl: "https://thenounproject.com",
     url: "https://thenounproject.com/icon/830408/"
+  },
+  {
+    iconName: "Gas Station",
+    creatorName: "Gregor Cresnar",
+    source: "the Noun Project",
+    sourceUrl: "https://thenounproject.com",
+    url: "https://thenounproject.com/icon/789276/"
   }
 ];
