@@ -817,5 +817,12 @@ var icons = [
     source: "the Noun Project",
     sourceUrl: "https://thenounproject.com",
     url: "https://thenounproject.com/icon/2066965/"
+  },
+  {
+    iconName: "Money",
+    creatorName: "Ker'is",
+    source: "the Noun Project",
+    sourceUrl: "https://thenounproject.com",
+    url: "https://thenounproject.com/icon/830408/"
   }
 ];
