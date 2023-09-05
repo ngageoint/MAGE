@@ -9,3 +9,9 @@ See the code:
 - [MAGE Android](https://github.com/ngageoint/mage-android)
 - [MAGE Server](https://github.com/ngageoint/mage-server)
 - [MAGE Example Markers](http://htmlpreview.github.io/?https://github.com/ngageoint/MAGE/master/markers.html)
+
+## Account deletion
+To delete your MAGE account and any associated data please contact the administrator for your MAGE server or email [NGA MAGE](mailto:mage@nga.mil).
+
+
+
